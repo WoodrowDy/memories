@@ -24,7 +24,7 @@ tags: [meta, tools/obsidian]
 
 - 한 기기에서만 편집 → `.gitignore`에 둔다(이미 무시 처리됨).
 - 여러 기기 동기화 → `.gitignore`에서 `.obsidian/` 줄을 지워 커밋한다.
-
+₩
 ## 추천 플러그인
 
 - **Dataview**: 프론트매터로 MOC 자동 생성. 예 — `topics/db/README.md`에:
