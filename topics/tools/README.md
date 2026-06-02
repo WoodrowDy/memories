@@ -9,4 +9,6 @@ tags: [moc, tools]
 
 - Obsidian — (작성 예정)
 - Notion — (작성 예정)
+- Git - (작성 예정)
 - 에디터 / IDE — (작성 예정)
+
