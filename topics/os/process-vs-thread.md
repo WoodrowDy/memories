@@ -2,7 +2,7 @@
 title: 프로세스 vs 스레드
 aliases: [프로세스 스레드, process vs thread, 멀티스레드, multithread]
 created: 2026-06-01
-updated: 2026-06-01
+updated: 2026-06-04
 tags: [os/process, os/thread]
 status: growing
 ---
@@ -107,6 +107,7 @@ B: Lock2 점유 → Lock1 대기   // 둘 다 영원히 멈춤
 
 ## 관련 문서
 
+- [동시성 vs 병렬성](../cs/concurrency-vs-parallelism.md)
+- [동기 vs 비동기](../cs/sync-vs-async.md)
 - [컨텍스트 스위칭](context-switching.md) (작성 예정)
-- [동시성과 동기화](concurrency.md) (작성 예정)
 - [JVM 메모리 구조](../lang/jvm-memory.md) (작성 예정)

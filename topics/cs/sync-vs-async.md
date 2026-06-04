@@ -3,7 +3,7 @@ title: 동기 vs 비동기
 aliases: [동기 비동기, synchronous vs asynchronous, sync vs async, 동기, 비동기, async]
 created: 2026-06-04
 updated: 2026-06-04
-tags: [os/synchronous, os/asynchronous]
+tags: [cs/synchronous, cs/asynchronous]
 status: growing
 ---
 
@@ -323,3 +323,10 @@ Web API와 Event Loop를 사용하기 때문이다.
 ## 한 줄 정리
 
 > 동기는 결과를 기다린 후 다음 작업을 수행하는 방식이고, 비동기는 결과를 기다리지 않고 다음 작업을 수행한 뒤 완료 시점에 결과를 처리하는 방식이다.
+
+---
+
+## 관련 문서
+
+- [동시성 vs 병렬성](concurrency-vs-parallelism.md)
+- [프로세스 vs 스레드](../os/process-vs-thread.md)

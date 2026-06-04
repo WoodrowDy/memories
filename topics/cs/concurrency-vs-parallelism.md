@@ -3,7 +3,7 @@ title: 동시성 vs 병렬성
 aliases: [동시성 병렬성, concurrency vs parallelism, 동시성, 병렬성, concurrency, parallelism]
 created: 2026-06-04
 updated: 2026-06-04
-tags: [os/concurrency, os/parallelism]
+tags: [cs/concurrency, cs/parallelism]
 status: growing
 ---
 
@@ -279,3 +279,10 @@ Python Multiprocessing = 병렬성
 CPU 작업 = 병렬성
 I/O 작업 = 동시성
 ```
+
+---
+
+## 관련 문서
+
+- [동기 vs 비동기](sync-vs-async.md)
+- [프로세스 vs 스레드](../os/process-vs-thread.md)
