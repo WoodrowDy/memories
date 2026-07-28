@@ -1,7 +1,7 @@
 ---
 title: Topics MOC
 created: 2026-05-29
-updated: 2026-05-29
+updated: 2026-07-28
 tags: [moc]
 ---
 
@@ -9,10 +9,22 @@ tags: [moc]
 
 정제된 지식. 한 개념 = 한 파일, 익으면 `status`를 올린다.
 
-- [os](os/) — 리눅스 등
-- [db](db/) — PostgreSQL, MySQL, MongoDB
-- [lang](lang/) — node, java, go, python
-- [infra](infra/) — AWS, NCP
-- [cs](cs/) — 네트워크, 자료구조/알고리즘, 디자인패턴, 아키텍처
-- [ai](ai/) — Claude, Gemini, 프롬프트, MCP
-- [tools](tools/) — Notion, Obsidian, 에디터 등
+어디에 넣을지 애매하면 기준은 하나다 — **회사를 옮겨도 그대로 쓰는 지식이면 `cs`,
+특정 제품·언어를 알아야 성립하면 그 제품의 카테고리.**
+자세한 판단 기준과 새 카테고리를 만드는 조건은 [작성 규칙](../CONVENTIONS.md)에 있다.
+
+## 카테고리
+
+| 카테고리 | 여기 들어오는 것 | 여기 아닌 것 |
+|---|---|---|
+| [cs](cs/) | 제품에 매이지 않는 개념 — 동시성, 네트워크·프로토콜, 자료구조/알고리즘, 디자인 패턴, 아키텍처 | 특정 제품의 사용법 |
+| [os](os/) | 운영체제가 제공하는 것 — 프로세스·스레드, 메모리, 파일시스템, 셸, 리눅스 | 실행 단위와 무관한 개념 (→ cs) |
+| [db](db/) | 데이터베이스 제품 — PostgreSQL, MySQL, MongoDB. 쿼리·인덱스·운영 | 트랜잭션·격리 수준의 순수 이론 (→ cs) |
+| [lang](lang/) | 프로그래밍 언어 자체 — node, java, go, python. 문법·런타임·관용구 | 언어 무관 개념 (→ cs) / 자연어 (→ [personal](../personal/)) |
+| [infra](infra/) | 클라우드와 배포·운영 — AWS, NCP, 컨테이너, CI/CD, 서버리스 | 코드 안에서 끝나는 것 |
+| [ai](ai/) | LLM을 **쓰는** 쪽 — Claude, Gemini, 프롬프트, MCP, 에이전트 설계 | ML 이론·수학 |
+| [tools](tools/) | 매일 쓰는 도구 — Obsidian, Notion, Git, 에디터 | 그 도구가 구현한 개념 (→ cs) |
+
+경계가 실제로 갈린 예: `프로세스 vs 스레드`는 OS가 주는 실행 단위라 `os`,
+`동시성 vs 병렬성`은 그 위의 개념이라 `cs`. `gRPC`는 특정 회사 제품이 아니라
+프로토콜·계약 설계라서 `cs`.
