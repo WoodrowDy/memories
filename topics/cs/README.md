@@ -1,7 +1,7 @@
 ---
 title: CS MOC
 created: 2026-05-29
-updated: 2026-07-29
+updated: 2026-07-30
 tags: [moc, cs]
 ---
 
@@ -20,13 +20,8 @@ tags: [moc, cs]
 ## 네트워크 / 서비스 간 통신
 
 - [gRPC](grpc.md) — 계약(.proto) 중심의 서비스 간 호출
+- [HTTP/2](http2.md) — 멀티플렉싱·HPACK
 
 ## 디자인 패턴
 
 - [GoF 디자인 패턴](gof-design-patterns.md)
-
-## 작성 예정
-
-- HTTP/2 — 멀티플렉싱·HPACK. gRPC 노트에서 갈라져 나올 것
-- 자료구조 / 알고리즘
-- 아키텍처 (DDD / 레이어드)
