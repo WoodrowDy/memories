@@ -1,7 +1,7 @@
 ---
 title: OS MOC
 created: 2026-05-29
-updated: 2026-07-28
+updated: 2026-07-31
 tags: [moc, os]
 ---
 
@@ -14,8 +14,3 @@ tags: [moc, os]
 ## 프로세스 / 스레드
 
 - [프로세스 vs 스레드](process-vs-thread.md)
-
-## 작성 예정
-
-- 메모리 — 가상 메모리, 페이징
-- Linux — 셸, 권한, 프로세스 관리

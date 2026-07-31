@@ -1,7 +1,7 @@
 ---
 title: AI MOC
 created: 2026-05-29
-updated: 2026-07-28
+updated: 2026-07-31
 tags: [moc, ai]
 ---
 
@@ -14,9 +14,3 @@ tags: [moc, ai]
 ## 모델
 
 - [폐쇄형 vs 오픈웨이트 vs 오픈소스](ai-model-types.md)
-
-## 작성 예정
-
-- 프롬프트 — 시스템 프롬프트 설계, 컨텍스트 관리
-- MCP — 서버 구조, 툴 정의
-- 툴 콜링 — 루프 설계와 상한
