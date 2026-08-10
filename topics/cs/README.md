@@ -25,3 +25,7 @@ tags: [moc, cs]
 ## 디자인 패턴
 
 - [GoF 디자인 패턴](gof-design-patterns.md)
+
+## 아키텍처
+
+- [레이어드 아키텍처](layered-architecture.md) — 의존 방향을 한쪽으로만 흐르게 하기
