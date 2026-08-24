@@ -1476,6 +1476,7 @@ generate-config-out
 
 ---
 
+
 # 32. 전체 도입 흐름
 
 최종적으로 전체 과정을 한 장으로 보면 다음과 같다.
@@ -1516,6 +1517,7 @@ flowchart TD
 ```
 
 ---
+
 
 # 33. 기억할 핵심
 
@@ -1566,6 +1568,7 @@ Argo CD
 Container Image
 Container Registry
 ```
+
 
 즉 미리 주어진 현재 전체 방향은:
 
