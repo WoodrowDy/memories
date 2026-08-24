@@ -1,7 +1,7 @@
 ---
 title: Infra MOC
 created: 2026-05-29
-updated: 2026-08-10
+updated: 2026-08-24
 tags: [moc, infra]
 ---
 
@@ -14,3 +14,4 @@ tags: [moc, infra]
 ## 노트
 
 - [Docker 기초](docker.md) — Image·Container·배포 흐름
+- [Terraform + NCP IaC](terraform-ncp-iac.md) — Repository 구조·기본 흐름·기존 인프라 import
